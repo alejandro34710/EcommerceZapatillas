@@ -97,11 +97,14 @@ const Collection = () => {
         <div className='flex-1'>
           <div className='flex justify-between items-center mb-6'>
             <Title text1={'TODAS LAS'} text2={'COLECCIONES'} />
-            <select onChange={changeSortOrder} className='border border-gray-300 bg-white rounded-md text-sm px-3 py-1 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500'>
-              <option value='Relevant'>Ordenar por: Más relevantes</option>
-              <option value='low-high'>Ordenar por: Precio menor a mayor</option>
-              <option value='high-low'>Ordenar por: Precio mayor a menor</option>
-            </select>
+            <select
+            onChange={changeSortOrder}
+            className="w-full max-w-full border border-gray-300 bg-white rounded-md text-sm px-3 py-1 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+          >
+            <option value="Relevant">Ordenar por: Más relevantes</option>
+            <option value="low-high">Ordenar por: Precio menor a mayor</option>
+            <option value="high-low">Ordenar por: Precio mayor a menor</option>
+          </select>
           </div>
           {/* renderizado de productos */}
           <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 mb-20'>
