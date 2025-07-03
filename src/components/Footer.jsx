@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       {/* Línea final */}
-      <div className="border-t border-gray-700 pt-4 px-6 md:px-12 pb-6 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-200">
+      <div className="border-t border-gray-700 pt-4 px-6 md:px-12 pb-6 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-800">
         <p>© 2025 StrideZone. Todos los derechos reservados.</p>
         <div className="space-x-4 mt-2 sm:mt-0">
           <a href="#" className="text-gray-700 hover:underline">Política de Privacidad</a>
