@@ -1,12 +1,86 @@
-# React + Vite
+🏪 StrideZone - Tienda de Zapatillas Deportivas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Resumen y Descripción del Proyecto
 
-Currently, two official plugins are available:
+StrideZone es una plataforma de comercio electrónico desarrollada con React y Tailwind CSS, enfocada en la venta de zapatillas deportivas. El sitio permite a los usuarios explorar diferentes colecciones de productos, aplicar filtros por categoría, tipo o precio, añadir productos al carrito, ver productos relacionados, completar formularios de compra y seleccionar métodos de pago.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Objetivo del Proyecto
 
-## Expanding the ESLint configuration
+✅ Objetivo General
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Desarrollar una tienda virtual de zapatillas deportivas completamente funcional y responsiva, que permita al usuario filtrar, seleccionar y comprar productos de manera intuitiva.
+
+🎯 Objetivos Específicos
+
+Implementar un sistema de carrito de compras dinámico.
+
+Incluir filtros por género, tipo de calzado y orden de precio.
+
+Validar formularios de compra antes de procesar el pago.
+
+Integrar métodos de pago visuales (aunque no funcionales aún).
+
+Mostrar productos relacionados en la vista de detalle.
+
+Incluir funcionalidades de búsqueda y experiencia fluida sin recarga de página.
+
+📦 Alcance del Proyecto
+
+Este proyecto cubre:
+
+Interfaz completamente funcional de navegación, catálogo y compra.
+
+Carrito con actualizaciones en tiempo real.
+
+Filtros y ordenamientos dinámicos.
+
+Formulario con validación.
+
+Funcionalidades visuales para crear cuenta (sin backend).
+
+Productos relacionados automatizados.
+
+Preparado para escalar a integración backend o Firebase.
+
+🧰 Tecnologías Utilizadas
+
+React.js – SPA (Single Page Application)
+
+Tailwind CSS – Estilización moderna y responsiva
+
+React Context API – Manejo de estado global (carrito, filtros)
+
+React Router DOM – Navegación entre páginas
+
+Heroicons / React Icons – Íconos interactivos
+
+ESLint – Control de calidad de código
+
+
+
+⚙️ Instalación y Configuración
+
+git clone https://github.com/alejandro34710/3.EcommerceZapatillas
+cd Frontend
+npm install
+npm run dev
+
+🗂️ Estructura del Proyecto
+
+/src
+  ├── assets/
+  ├── components/
+  ├── context/
+  ├── pages/
+  ├── App.jsx
+  └── main.jsx
+
+components/: Componentes reutilizables (Hero, ProductItem, CartTotal, etc.)
+
+context/ShopContext.jsx: Manejo del estado global del carrito
+
+pages/: Vistas principales del sitio
+
+assets/: Recursos gráficos
+
+main.jsx y App.jsx: Entrada principal del proyecto
